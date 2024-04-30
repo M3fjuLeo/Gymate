@@ -13,7 +13,7 @@ const classesData = [
     title: 'Cycling',
     time: 'Wed: 9:00am',
     trainer: 'David Vila',
-    img: cyclingImg,
+    img: { cyclingImg },
   },
   {
     id: 2,
