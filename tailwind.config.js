@@ -1,0 +1,45 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    screens: {
+      md1200: { max: '1200px' },
+      md1000: { max: '1000px' },
+      min800: { max: '800px' },
+      min620: { max: '620px' },
+      min540: { max: '540px' },
+      min450: { max: '450px' },
+      min375: { max: '375px' },
+    },
+    backgroundImage: {
+      about1: "url('src/images/AboutPage/3.jpg')",
+      about2: "url('src/images/AboutPage/4.jpg')",
+      featuredImg1: "url('src/images/features/cycling.jpg')",
+      featuredImg2: "url('src/images/features/karate.jpg')",
+      featuredImg3: "url('src/images/features/power.jpg')",
+      featuredImg4: "url('src/images/features/meditation.jpg')",
+      featuredImg5: "url('src/images/features/mma.jpg')",
+      featuredImg6: "url('src/images/features/workout.jpg')",
+      featuredBgBanner: "url('src/images/features/cta-bg.png')",
+      pageHeadingBgImage: "url('src/images/login/banner.jpg')",
+      aboutTileBgImage: "url('src/images/who-we-are/info-card-bg.jpg')",
+      aboutBgImage: "url('src/pages/Pricing/pricing/background.jpg')",
+      chooseUsBgImage: "url('src/images/choose-us/choose-bg.jpg')",
+      trainersBg: "url('src/images/trainers/dot-bg.png')",
+      galleryHomeImg1: "url('src/pages/Gallery/gallery/img1.jpg')",
+      galleryHomeImg2: "url('src/pages/Gallery/gallery/img2.jpg')",
+      galleryHomeImg3: "url('src/pages/Gallery/gallery/img3.jpg')",
+      galleryHomeImg4: "url('src/pages/Gallery/gallery/img4.jpg')",
+      galleryHomeImg5: "url('src/pages/Gallery/gallery/img5.jpg')",
+      BmiBg: "url('src/components/BMI/background.jpg')",
+      CallBg: "url('src/components/CallBanner/background.jpg')",
+      BlogDiscountBanner: "url('src/pages/Blog/blog/sidebar1.png')",
+    },
+    extend: {
+      backgroundImage: {
+        none: 'none',
+      },
+    },
+  },
+  plugins: [],
+};

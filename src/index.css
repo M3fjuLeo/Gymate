@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-btn-spin {
+  rotate: 360deg;
+  transition: 1s all;
+}
+
+.girl-running {
+  width: 100%;
+  height: auto;
+  top: 60%;
+  right: 46%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  z-index: 5;
+}
+
+.trainerBox::after {
+  content: '';
+  width: 45px;
+  height: 4px;
+  background-color: #ff0336;
+  position: absolute;
+  transition: ease-in-out 0.5s;
+  bottom: 0;
+}
+
+.trainerBox:hover:after {
+  width: 100%;
+}
+
+.white-cta::after {
+  content: '';
+  width: 13rem;
+  height: 3.5rem;
+  border: 1px solid grey;
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.white-cta:hover:after {
+  content: '';
+  border: 1px solid white;
+  top: 0px;
+  left: 0px;
+  transition: all 0.4s;
+}
+
+.gray-cta:after {
+  content: '';
+  width: 13rem;
+  height: 3.5rem;
+  border: 1px solid grey;
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.gray-cta:hover:after {
+  content: '';
+  width: 13rem;
+  height: 3.5rem;
+  border: 1px solid #ff0336;
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
+}
+
+.red-cta:after {
+  content: '';
+  width: 13rem;
+  height: 3.5rem;
+  border: 2px solid #ff03353b;
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  transition: all 0.4s;
+}
+
+.red-cta:hover:after {
+  content: '';
+  width: 13rem;
+  height: 3.5rem;
+  border: 1px solid #ff0336;
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
+}
