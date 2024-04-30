@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import scrollTop from '../../ui/scrollToTop';
 import NavLinksList from './NavLinksList';
 import Sidebar from './Sidebar';
+import logo from 'images/logo/logo.svg';
 
 function Nav() {
   const [isSticky, setIsSticky] = useState(false);
@@ -37,7 +38,7 @@ function Nav() {
       className={`fixed z-[9999] flex w-full flex-row items-center justify-between px-7 py-5 text-white ${isSticky ? '!bg-black shadow-xl' : ''}`}
     >
       <Link to={'/'} onClick={() => scrollTop()}>
-        <img src="public/images/logo/logo.svg" alt="logo" />
+        <img src={logo} alt="logo" />
       </Link>
       <ul className="flex flex-row gap-4 text-lg font-thin tracking-wider md1200:hidden">
         <NavLinksList />
