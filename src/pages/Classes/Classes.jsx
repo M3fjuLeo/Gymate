@@ -20,7 +20,7 @@ const classesData = [
     title: 'Meditation',
     time: 'Fri: 1:00pm',
     trainer: 'John Weights',
-    img: '../../../public/images/classesImg/meditation.jpg',
+    img: meditationImg,
   },
   {
     id: 3,
