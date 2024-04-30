@@ -19,16 +19,16 @@ function AboutMain() {
           <div className="flex flex-row justify-center gap-2 min620:flex-col">
             <AboutGymBox
               title={`PROFESSIONAL TRAINERS`}
-              img="src/images/features/workout-red.png"
+              img="public/images/features/workout-red.png"
             />
             <AboutGymBox
               title="modern equipments"
-              img="src/images/who-we-are/equpments.png"
+              img="public/images/who-we-are/equpments.png"
               style="border-x-2"
             />
             <AboutGymBox
               title="fancy gym machines"
-              img="src/images/who-we-are/gym.png"
+              img="public/images/who-we-are/gym.png"
             />
           </div>
         </div>

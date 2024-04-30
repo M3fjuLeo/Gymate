@@ -1,15 +1,15 @@
-import Img1 from '../../images/GalleryPage/1.jpg';
-import Img2 from '../../images/GalleryPage/2.jpg';
-import Img3 from '../../images/GalleryPage/3.jpg';
-import Img4 from '../../images/GalleryPage/4.jpg';
-import Img5 from '../../images/GalleryPage/5.jpg';
-import Img6 from '../../images/GalleryPage/6.jpg';
-import Img7 from '../../images/GalleryPage/7.jpg';
-import Img8 from '../../images/GalleryPage/8.jpg';
-import Img9 from '../../images/GalleryPage/9.jpg';
-import Img10 from '../../images/GalleryPage/10.jpg';
-import Img11 from '../../images/GalleryPage/11.jpg';
-import Img12 from '../../images/GalleryPage/12.jpg';
+import Img1 from '../../../public/images/GalleryPage/1.jpg';
+import Img2 from '../../../public/images/GalleryPage/2.jpg';
+import Img3 from '../../../public/images/GalleryPage/3.jpg';
+import Img4 from '../../../public/images/GalleryPage/4.jpg';
+import Img5 from '../../../public/images/GalleryPage/5.jpg';
+import Img6 from '../../../public/images/GalleryPage/6.jpg';
+import Img7 from '../../../public/images/GalleryPage/7.jpg';
+import Img8 from '../../../public/images/GalleryPage/8.jpg';
+import Img9 from '../../../public/images/GalleryPage/9.jpg';
+import Img10 from '../../../public/images/GalleryPage/10.jpg';
+import Img11 from '../../../public/images/GalleryPage/11.jpg';
+import Img12 from '../../../public/images/GalleryPage/12.jpg';
 
 export const galleryImg = [
   {

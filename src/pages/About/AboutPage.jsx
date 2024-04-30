@@ -9,7 +9,7 @@ function AboutPage() {
       <div className="page-padding container grid grid-cols-2 grid-rows-2 pb-20 min620:grid-cols-1 ">
         <div className="flex flex-col items-center justify-center gap-4 bg-white p-24 text-center md1000:p-14 min800:p-10">
           <img
-            src="src/images/AboutPage/target.png"
+            src="public/images/AboutPage/target.png"
             alt="target image"
             className="w-24"
           />
@@ -24,7 +24,7 @@ function AboutPage() {
         <div className="bg-about2 bg-cover bg-center"></div>
         <div className="flex flex-col items-center justify-center gap-4 bg-white p-24 text-center md1000:p-14 min800:p-10">
           <img
-            src="src/images/AboutPage/mountain.png"
+            src="public/images/AboutPage/mountain.png"
             alt="target image"
             className="w-24"
           />

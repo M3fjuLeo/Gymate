@@ -9,13 +9,13 @@ function ChooseUs() {
         <div className="relative">
           <img
             className="w-[90rem] md1000:w-[45rem] "
-            src="src/images/choose-us/main-img.png"
+            src="public/images/choose-us/main-img.png"
             alt="choose us image"
           />
           <span className="absolute left-[50%] top-[45%] w-16 -translate-x-2/4 -translate-y-2/4 cursor-pointer rounded-full bg-white p-4">
             <img
               className="relative left-1 md1000:block"
-              src="src/images/choose-us/play.png"
+              src="public/images/choose-us/play.png"
               alt="plaay image"
             />
           </span>
@@ -34,19 +34,19 @@ function ChooseUs() {
           <div className="mb-8 grid grid-cols-2 grid-rows-2 gap-8 min540:flex min540:flex-col">
             <ChooseUsBox
               title="Free Fitness Training"
-              icon="src/images/choose-us/training.png"
+              icon="public/images/choose-us/training.png"
             />
             <ChooseUsBox
               title="Modern Gym Equipments"
-              icon="src/images/choose-us/bench-press.png"
+              icon="public/images/choose-us/bench-press.png"
             />
             <ChooseUsBox
               title="Gym Bag Equipments"
-              icon="src/images/choose-us/gym-bag.png"
+              icon="public/images/choose-us/gym-bag.png"
             />
             <ChooseUsBox
               title="Fresh Bottle Watter"
-              icon="src/images/choose-us/bottle-of-water.png"
+              icon="public/images/choose-us/bottle-of-water.png"
             />
           </div>
           <Button

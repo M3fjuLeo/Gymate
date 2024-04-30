@@ -8,8 +8,8 @@ import BlogDiscountBanner from './BlogDiscountBanner';
 
 const blogsData = [
   {
-    img: 'src/pages/Blog/blog/1.jpg',
-    recentImg: 'src/pages/Blog/blog/recent1.jpg',
+    img: 'public/images/blog/1.jpg',
+    recentImg: 'public/images/blog/recent1.jpg',
     title: 'Yoga For Everyone in 2022',
     date: 'March 11, 2022',
     label: 'Yoga',
@@ -17,8 +17,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'src/pages/Blog/blog/2.jpg',
-    recentImg: 'src/pages/Blog/blog/recent2.jpg',
+    img: 'public/images/blog/2.jpg',
+    recentImg: 'public/images/blog/recent2.jpg',
     title: 'Getting Back Into CrossFit After Vacation',
     date: 'March 11, 2022',
     label: 'Gym',
@@ -26,8 +26,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'src/pages/Blog/blog/3.jpg',
-    recentImg: 'src/pages/Blog/blog/recent3.jpg',
+    img: 'public/images/blog/3.jpg',
+    recentImg: 'public/images/blog/recent3.jpg',
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Yoga',
@@ -35,8 +35,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'src/pages/Blog/blog/4.jpg',
-    recentImg: 'src/pages/Blog/blog/recent4.jpg',
+    img: 'public/images/blog/4.jpg',
+    recentImg: 'public/images/blog/recent4.jpg',
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Meditation',
@@ -44,8 +44,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'src/pages/Blog/blog/5.jpg',
-    recentImg: 'src/pages/Blog/blog/recent5.jpg',
+    img: 'public/images/blog/5.jpg',
+    recentImg: 'public/images/blog/recent5.jpg',
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Boxing',
@@ -53,8 +53,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'src/pages/Blog/blog/6.jpg',
-    recentImg: 'src/pages/Blog/blog/recent6.jpg',
+    img: 'public/images/blog/6.jpg',
+    recentImg: 'public/images/blog/recent6.jpg',
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Crossfit',
@@ -62,8 +62,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'src/pages/Blog/blog/7.jpg',
-    recentImg: 'src/pages/Blog/blog/recent7.jpg',
+    img: 'public/images/blog/7.jpg',
+    recentImg: 'public/images/blog/recent7.jpg',
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Boxing',

@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       className="h-[110vh] w-full bg-cover bg-center"
-      style={{ backgroundImage: "url('src/images/hero/hero-img.jpg')" }}
+      style={{ backgroundImage: "url('public/images/hero/hero-img.jpg')" }}
     >
       <div className="relative flex h-full w-full">
         <div className="absolute right-[20rem] top-[50%] flex translate-y-[-50%] flex-col gap-6 min800:right-[10rem] min800:items-center min800:text-center min540:right-[3rem]">
@@ -13,7 +13,7 @@ function Hero() {
               find your energy
             </p>
             <img
-              src="src/images/features/title-bg.svg"
+              src="public/images/features/title-bg.svg"
               alt="text-bg"
               className="relative w-[55%] brightness-0 invert min800:w-[15rem]"
             />

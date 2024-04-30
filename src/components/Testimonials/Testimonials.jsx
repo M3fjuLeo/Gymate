@@ -1,10 +1,10 @@
 import Title from '../../ui/Title';
 import TestimonialsBox from './TestimonialsBox';
-import Logo1 from './TestimonialsImg/logo1.png';
-import Logo2 from './TestimonialsImg/logo2.png';
-import Logo3 from './TestimonialsImg/logo3.png';
-import Logo4 from './TestimonialsImg/logo4.png';
-import Logo5 from './TestimonialsImg/logo5.png';
+import Logo1 from '../../../public/images/TestimonialsImg/logo1.png';
+import Logo2 from '../../../public/images/TestimonialsImg/logo2.png';
+import Logo3 from '../../../public/images/TestimonialsImg/logo3.png';
+import Logo4 from '../../../public/images/TestimonialsImg/logo4.png';
+import Logo5 from '../../../public/images/TestimonialsImg/logo5.png';
 
 function Testimonials() {
   const logos = [Logo1, Logo2, Logo3, Logo4, Logo5];
@@ -18,7 +18,7 @@ function Testimonials() {
             <div className="relative w-[44rem] md1200:hidden">
               <img
                 className="absolute bottom-0 h-[30rem] w-[25rem] rounded-tr-[12rem]"
-                src="src/components/Testimonials/TestimonialsImg/testimonial-new.jpg"
+                src="public/images/TestimonialsImg/testimonial-new.jpg"
                 alt="trainer photo"
               />
             </div>

@@ -1,4 +1,4 @@
-import LogoFooter from '../../images/logo/logo-footer.svg';
+import LogoFooter from '../../../public/images/logo/logo-footer.svg';
 import CircleLink from '../../ui/CircleLink';
 import FooterClass from './FooterClass';
 

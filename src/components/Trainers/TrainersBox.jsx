@@ -1,8 +1,8 @@
-import Trainer1 from '../../images/trainers/trainer1.png';
-import Trainer2 from '../../images/trainers/trainer2.png';
-import Trainer3 from '../../images/trainers/trainer3.png';
-import TrainerBg from '../../images/trainers/trainer-bg.png';
-import Shape from '../../images/trainers/shape.png';
+import Trainer1 from '../../../public/images/trainers/trainer1.png';
+import Trainer2 from '../../../public/images/trainers/trainer2.png';
+import Trainer3 from '../../../public/images/trainers/trainer3.png';
+import TrainerBg from '../../../public/images/trainers/trainer-bg.png';
+import Shape from '../../../public/images/trainers/shape.png';
 
 function TrainersBox() {
   const trainers = [

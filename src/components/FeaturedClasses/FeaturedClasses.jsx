@@ -1,18 +1,11 @@
+import Title from '../../ui/Title';
 import FeaturedTile from './FeaturedTile';
 
 function FeaturedClasses() {
   return (
     <section className="container">
       <div className="page-padding flex flex-col items-center gap-10 py-20">
-        <div>
-          <img
-            className="absolute w-[20rem]"
-            src="src/images/features/title-bg.svg"
-          />
-          <h2 className="relative px-14 py-4 font-bold uppercase text-white">
-            our feautered classes
-          </h2>
-        </div>
+        <Title title="our feautered classes" width="w-80" />
         <h1 className="text-4xl font-bold">
           We Are Offering Best Flexible Classes
         </h1>

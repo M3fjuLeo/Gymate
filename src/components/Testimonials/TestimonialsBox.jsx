@@ -16,7 +16,7 @@ function TestimonialsBox() {
         <div key={id}>
           <img
             className="mb-6 w-16"
-            src="src/components/Testimonials/TestimonialsImg/quotes.png"
+            src="public/images/TestimonialsImg/quotes.png"
             alt="quotes"
           />
           <p className="mb-6 font-thin italic text-neutral-300">

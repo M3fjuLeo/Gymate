@@ -5,8 +5,7 @@ function GalleryHome() {
     <section className="relative" id="gallery home">
       <img
         className="absolute right-0 top-20"
-        src="src/pages/Gallery/gallery/bg-icon.png"
-        alt=""
+        src="public/images/gallery/bg-icon.png"
       />
       <div className="page-padding container py-32">
         <div className="flex flex-col items-center gap-12">

@@ -1,11 +1,11 @@
 import CircleLink from './../../ui/CircleLink';
 
-import SideImg1 from '../../images/sidebar/1.jpg';
-import SideImg2 from '../../images/sidebar/2.jpg';
-import SideImg3 from '../../images/sidebar/3.jpg';
-import SideImg4 from '../../images/sidebar/4.jpg';
-import SideImg5 from '../../images/sidebar/5.jpg';
-import SideImg6 from '../../images/sidebar/6.jpg';
+import SideImg1 from '../../../public/images/sidebar/1.jpg';
+import SideImg2 from '../../../public/images/sidebar/2.jpg';
+import SideImg3 from '../../../public/images/sidebar/3.jpg';
+import SideImg4 from '../../../public/images/sidebar/4.jpg';
+import SideImg5 from '../../../public/images/sidebar/5.jpg';
+import SideImg6 from '../../../public/images/sidebar/6.jpg';
 import SidebarSectionBox from './SidebarSectionBox';
 
 function Sidebar({ sidebar, handleSidebar }) {
@@ -15,7 +15,7 @@ function Sidebar({ sidebar, handleSidebar }) {
     >
       <div className="flex items-center justify-between">
         <img
-          src="src/images/logo/logo-footer.svg"
+          src="public/images/logo/logo-footer.svg"
           alt="logo"
           className="color-black w-[8rem]"
         />

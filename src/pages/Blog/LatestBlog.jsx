@@ -4,7 +4,7 @@ import LatestBlogBox from './LatestBlogBox';
 function LatestBlog() {
   return (
     <section id="latest blog">
-      <div className="page-padding container flex flex-col items-center py-20">
+      <div className="page-padding container flex flex-col items-center gap-8 py-20">
         <div className="flex w-[50%] flex-col items-center gap-4 text-center">
           <Title title={'Latest blog'} />
           <h1 className="text-4xl font-bold">Our Recent News</h1>

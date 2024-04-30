@@ -120,7 +120,7 @@ function Schedule() {
   const [activeDay, setActiveDay] = useState('monday');
 
   return (
-    <section id="schedule">
+    <section id="schedule" className="pb-12">
       <div className="flex flex-col items-center">
         <PageHeading title={'Schedule by Day'} />
         <ScheduleNav activeDay={activeDay} setActiveDay={setActiveDay} />

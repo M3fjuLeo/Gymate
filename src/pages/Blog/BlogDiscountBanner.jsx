@@ -3,7 +3,7 @@ function BlogDiscountBanner() {
     <div className="relative md1000:hidden">
       <img
         className="absolute w-full"
-        src="src/pages/Blog/blog/sidebar1.png"
+        src="public/images/blog/sidebar1.png"
         alt="discount banner"
       />
       <h2 className="absolute top-7 bg-white px-8 py-4 text-2xl font-bold">
