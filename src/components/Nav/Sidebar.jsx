@@ -1,5 +1,6 @@
 import CircleLink from './../../ui/CircleLink';
 
+import logo from '../../../public/images/logo/logo-footer.svg';
 import SideImg1 from '../../../public/images/sidebar/1.jpg';
 import SideImg2 from '../../../public/images/sidebar/2.jpg';
 import SideImg3 from '../../../public/images/sidebar/3.jpg';
@@ -14,11 +15,7 @@ function Sidebar({ sidebar, handleSidebar }) {
       className={`fixed duration-500 ease-in-out ${sidebar ? 'left-0' : '-left-[25rem]'} top-0 flex h-screen w-[25rem] flex-col gap-16 overflow-scroll bg-white px-12 py-12`}
     >
       <div className="flex items-center justify-between">
-        <img
-          src="public/images/logo/logo-footer.svg"
-          alt="logo"
-          className="color-black w-[8rem]"
-        />
+        <img src={logo} alt="logo" className="color-black w-[8rem]" />
         <i
           onClick={handleSidebar}
           className="fa-solid fa-xmark  cursor-pointer self-end text-4xl text-red-500"
