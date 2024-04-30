@@ -2,6 +2,9 @@ import Button from '../../ui/Button';
 import AboutRunningGirlImg from './AboutRunningGirlImg';
 import Title from './../../ui/Title';
 import AboutGymBox from './AboutGymBox';
+import professionalTrainersImg from '../../../public/images/features/workout-red.png';
+import equpmentsImg from '../../../public/images/who-we-are/equpments.png';
+import gymImg from '../../../public/images/who-we-are/gym.png';
 
 function AboutMain() {
   return (
@@ -19,17 +22,14 @@ function AboutMain() {
           <div className="flex flex-row justify-center gap-2 min620:flex-col">
             <AboutGymBox
               title={`PROFESSIONAL TRAINERS`}
-              img="public/images/features/workout-red.png"
+              img={professionalTrainersImg}
             />
             <AboutGymBox
               title="modern equipments"
-              img="public/images/who-we-are/equpments.png"
+              img={equpmentsImg}
               style="border-x-2"
             />
-            <AboutGymBox
-              title="fancy gym machines"
-              img="public/images/who-we-are/gym.png"
-            />
+            <AboutGymBox title="fancy gym machines" img={gymImg} />
           </div>
         </div>
         <Button
