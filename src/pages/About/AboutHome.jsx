@@ -1,9 +1,10 @@
 import AboutMain from './AboutMain';
 import AboutTiles from './AboutTiles';
+import bgImage from '../../../public/images/pricing/background.jpg';
 
 function About() {
   return (
-    <section className="bg-aboutBgImage flex flex-col bg-cover bg-center">
+    <section className="about-section flex flex-col">
       <AboutTiles />
       <AboutMain />
     </section>

@@ -1,4 +1,5 @@
 import Button from '../../ui/Button';
+import titleImg from '../../../public/images/features/title-bg.svg';
 
 function Hero() {
   return (
@@ -10,7 +11,7 @@ function Hero() {
               find your energy
             </p>
             <img
-              src="public/images/features/title-bg.svg"
+              src={titleImg}
               alt="text-bg"
               className="relative w-[55%] brightness-0 invert min800:w-[15rem]"
             />
