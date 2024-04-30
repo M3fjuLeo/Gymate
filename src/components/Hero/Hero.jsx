@@ -2,10 +2,7 @@ import Button from '../../ui/Button';
 
 function Hero() {
   return (
-    <section
-      className="h-[110vh] w-full bg-cover bg-center"
-      style={{ backgroundImage: "url('public/images/hero/hero-img.jpg')" }}
-    >
+    <section className="hero-section">
       <div className="relative flex h-full w-full">
         <div className="absolute right-[20rem] top-[50%] flex translate-y-[-50%] flex-col gap-6 min800:right-[10rem] min800:items-center min800:text-center min540:right-[3rem]">
           <div>
