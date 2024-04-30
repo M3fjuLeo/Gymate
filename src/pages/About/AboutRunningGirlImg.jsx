@@ -1,5 +1,5 @@
 import girlImg from '../../../public/images/who-we-are/girl-run.png';
-import bgImg from '../../../public/images/who-we-are/girl-redbg.png';
+import bgImg from '../../../public/images/who-we-are/girl-redbg.svg';
 import textImg from '../../../public/images/who-we-are/girl-side-text.png';
 import windImg from '../../../public/images/who-we-are/wind.png';
 
