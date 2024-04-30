@@ -1,6 +1,11 @@
 import PageHeading from '../../ui/PageHeading';
 import ClassTile from './ClassTile';
 import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+import meditationImg from '../../../public/images/classesImg/meditation.jpg';
+import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
 
 const classesData = [
   {
@@ -15,7 +20,7 @@ const classesData = [
     title: 'Meditation',
     time: 'Fri: 1:00pm',
     trainer: 'John Weights',
-    img: 'public/images/classesImg/meditation.jpg',
+    img: meditationImg,
   },
   {
     id: 3,
