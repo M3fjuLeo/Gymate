@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import scrollTop from '../../ui/scrollToTop';
 import NavLinksList from './NavLinksList';
 import Sidebar from './Sidebar';
-import logo from '../../../public/images/logo/logo.svg';
+import logo from 'images/logo/logo.svg';
 
 function Nav() {
   const [isSticky, setIsSticky] = useState(false);
