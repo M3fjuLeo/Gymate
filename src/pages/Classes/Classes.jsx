@@ -1,5 +1,6 @@
 import PageHeading from '../../ui/PageHeading';
 import ClassTile from './ClassTile';
+import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
 
 const classesData = [
   {
@@ -7,7 +8,7 @@ const classesData = [
     title: 'Cycling',
     time: 'Wed: 9:00am',
     trainer: 'David Vila',
-    img: 'public/images/classesImg/cycling.jpg',
+    img: cyclingImg,
   },
   {
     id: 2,
