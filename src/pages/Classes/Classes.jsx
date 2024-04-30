@@ -2,10 +2,10 @@ import PageHeading from '../../ui/PageHeading';
 import ClassTile from './ClassTile';
 import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
 import meditationImg from '../../../public/images/classesImg/meditation.jpg';
-import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
-import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
-import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
-import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
 
 const classesData = [
   {
