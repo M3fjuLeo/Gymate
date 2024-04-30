@@ -32,7 +32,7 @@ body {
 }
 
 .about-hover-tile:hover {
-  background-image: url('../public/images/who-we-are/background.jpg');
+  background-image: url('../public/images/who-we-are/info-card-bg.jpg');
 }
 
 .container {
