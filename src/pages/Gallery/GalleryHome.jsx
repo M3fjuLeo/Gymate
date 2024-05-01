@@ -1,4 +1,9 @@
 import Title from '../../ui/Title';
+import img1 from '../../../public/images/gallery/img1.jpg';
+import img2 from '../../../public/images/gallery/img2.jpg';
+import img3 from '../../../public/images/gallery/img3.jpg';
+import img4 from '../../../public/images/gallery/img4.jpg';
+import img5 from '../../../public/images/gallery/img5.jpg';
 
 function GalleryHome() {
   return (
@@ -19,11 +24,41 @@ function GalleryHome() {
             </p>
           </div>
           <div className="grid h-[40rem] w-full grid-cols-4 grid-rows-3 gap-2">
-            <div className="bg-galleryHomeImg1 col-span-2 row-span-2 bg-cover bg-center"></div>
-            <div className="bg-galleryHomeImg2 col-span-2 bg-cover bg-center"></div>
-            <div className="bg-galleryHomeImg5 col-span-2 row-span-2 bg-cover bg-center"></div>
-            <div className="bg-galleryHomeImg3 bg-cover bg-center"></div>
-            <div className="bg-galleryHomeImg4 bg-cover bg-center"></div>
+            <div className="relative col-span-2 row-span-2">
+              <img
+                src={img1}
+                alt="gallery image"
+                className="absolute h-full w-full object-cover"
+              />
+            </div>
+            <div className="relative col-span-2 bg-cover bg-center">
+              <img
+                src={img2}
+                alt="gallery image"
+                className="absolute h-full w-full object-cover"
+              />
+            </div>
+            <div className="relative col-span-2 row-span-2">
+              <img
+                src={img5}
+                alt="gallery image"
+                className="absolute h-full w-full object-cover"
+              />
+            </div>
+            <div className="relative">
+              <img
+                src={img3}
+                alt="gallery image"
+                className="absolute h-full w-full object-cover"
+              />
+            </div>
+            <div className="relative">
+              <img
+                src={img4}
+                alt="gallery image"
+                className="absolute h-full w-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
