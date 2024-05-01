@@ -1,15 +1,16 @@
 import Button from '../../ui/Button';
 import ChooseUsBox from './ChooseUsBox';
 import Title from './../../ui/Title';
+import videoImg from '../../../public/images/choose-us/main-img.png';
 
 function ChooseUs() {
   return (
-    <section className="bg-chooseUsBgImage page-padding">
+    <section className="chooseUsSection page-padding">
       <div className="container flex flex-row gap-24 py-28 md1000:flex-col md1000:items-center">
         <div className="relative">
           <img
             className="w-[90rem] md1000:w-[45rem] "
-            src="public/images/choose-us/main-img.png"
+            src={videoImg}
             alt="choose us image"
           />
           <span className="absolute left-[50%] top-[45%] w-16 -translate-x-2/4 -translate-y-2/4 cursor-pointer rounded-full bg-white p-4">

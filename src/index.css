@@ -82,6 +82,10 @@ body {
   background-position: center center;
 }
 
+.chooseUsSection {
+  background-image: url('../public/images/choose-us/choose-bg.jpg');
+}
+
 .white-cta::after {
   content: '';
   width: 13rem;
