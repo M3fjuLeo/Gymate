@@ -1,5 +1,6 @@
 import Title from '../../ui/Title';
 import FeaturedTile from './FeaturedTile';
+import img1 from '../../../public/images/features/cycling.jpg';
 
 function FeaturedClasses() {
   return (
@@ -13,7 +14,7 @@ function FeaturedClasses() {
           <FeaturedTile
             title="Cycling"
             description="Wednesday: 9:00am-10:00am"
-            bgImg="bg-featuredImg1"
+            bgImg={img1}
             span={2}
           />
           <FeaturedTile
