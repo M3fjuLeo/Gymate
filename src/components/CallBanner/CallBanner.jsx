@@ -4,7 +4,7 @@ function CallBanner() {
   const number = '+123-456789';
 
   return (
-    <section id="call" className="bg-CallBg bg-cover bg-center">
+    <section id="call" className="CallBgBanner bg-cover bg-center">
       <div className="page-padding container flex flex-col gap-4 py-14">
         <h1 className="text-4xl font-bold text-white">
           Need a Fitness Trainer?

@@ -95,6 +95,10 @@ body {
   background-image: url('../public/images/bmiBackground.jpg');
 }
 
+.CallBgBanner {
+  background-image: url('../public/images/callBackground.jpg');
+}
+
 .white-cta::after {
   content: '';
   width: 13rem;

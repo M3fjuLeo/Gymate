@@ -22,7 +22,6 @@ export default {
       galleryHomeImg3: "url('public/images/gallery/img3.jpg')",
       galleryHomeImg4: "url('public/images/gallery/img4.jpg')",
       galleryHomeImg5: "url('public/images/gallery/img5.jpg')",
-      CallBg: "url('public/images/callBackground.jpg')",
       BlogDiscountBanner: "url('public/pages/Blog/blog/sidebar1.png')",
     },
     extend: {
