@@ -3,11 +3,13 @@ import meditationImg from '../../../public/images/classesImg/meditation.jpg';
 
 function ClassTile({ img, title, trainer, time }) {
   return (
-    <div
-      className={`relative flex h-[30rem] flex-col rounded-2xl bg-cover bg-center shadow-xl`}
-      style={{ backgroundImage: img }}
-    >
-      <div className="absolute left-0 top-0 z-20 h-full w-full rounded-2xl bg-[#0000002a]">
+    <div className={`relative flex h-[30rem] flex-col rounded-2xl shadow-xl`}>
+      <img
+        src={img}
+        alt=""
+        className="absolute h-full w-full rounded-2xl object-cover"
+      />
+      <div className="absolute left-0 top-0 z-20 h-full w-full rounded-2xl bg-[#0000004a]">
         <div className="absolute bottom-10 left-10">
           <h2 className="mb-2 text-2xl font-bold text-white">{title}</h2>
           <div className="mb-4 h-[4px] w-[4rem] bg-red-500"></div>

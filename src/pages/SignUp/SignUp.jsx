@@ -2,7 +2,7 @@ import PageHeading from '../../ui/PageHeading';
 
 function SignUp() {
   return (
-    <section id="sign up" className="bg-aboutBgImage">
+    <section id="sign up" className="signUpSection">
       <PageHeading title="Sign Up" />
       <div className="page-padding container flex justify-center py-20">
         <form className="flex w-[35rem] flex-col gap-8 bg-black p-14">

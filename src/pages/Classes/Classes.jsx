@@ -2,10 +2,16 @@ import PageHeading from '../../ui/PageHeading';
 import ClassTile from './ClassTile';
 import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
 import meditationImg from '../../../public/images/classesImg/meditation.jpg';
-// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
-// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
-// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
-// import cyclingImg from '../../../public/images/classesImg/cycling.jpg';
+import boxImg from '../../../public/images/classesImg/box.jpg';
+import karateImg from '../../../public/images/classesImg/karate.jpg';
+import powerLiftingImg from '../../../public/images/classesImg/powerlifting.jpg';
+import workoutImg from '../../../public/images/classesImg/workout.jpg';
+import crossImg from '../../../public/images/classesImg/cross.jpg';
+import runningImg from '../../../public/images/classesImg/running.jpg';
+import bodybuildingImg from '../../../public/images/classesImg/bodybuilding.jpg';
+import mmaImg from '../../../public/images/classesImg/mma.jpg';
+import yogaImg from '../../../public/images/classesImg/yoga.jpg';
+import fitnessImg from '../../../public/images/classesImg/fitness.jpg';
 
 const classesData = [
   {
@@ -13,7 +19,7 @@ const classesData = [
     title: 'Cycling',
     time: 'Wed: 9:00am',
     trainer: 'David Vila',
-    img: { cyclingImg },
+    img: cyclingImg,
   },
   {
     id: 2,
@@ -27,70 +33,70 @@ const classesData = [
     title: 'Boxing',
     time: 'Tue: 4:00pm',
     trainer: 'Junifor Jonas',
-    img: 'public/images/classesImg/box.jpg',
+    img: boxImg,
   },
   {
     id: 4,
     title: 'Karate',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/karate.jpg',
+    img: karateImg,
   },
   {
     id: 5,
     title: 'Power Lifting',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/powerlifting.jpg',
+    img: powerLiftingImg,
   },
   {
     id: 6,
     title: 'Workout',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/workout.jpg',
+    img: workoutImg,
   },
   {
     id: 7,
     title: 'Crossfit',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/cross.jpg',
+    img: crossImg,
   },
   {
     id: 8,
     title: 'Running',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/running.jpg',
+    img: runningImg,
   },
   {
     id: 9,
     title: 'Body Building',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/bodybuilding.jpg',
+    img: bodybuildingImg,
   },
   {
     id: 10,
     title: 'Mma',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/mma.jpg',
+    img: mmaImg,
   },
   {
     id: 11,
     title: 'Yoga',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/yoga.jpg',
+    img: yogaImg,
   },
   {
     id: 12,
     title: 'Fitness',
     time: 'Sat: 9:00am',
     trainer: 'Robert Louis',
-    img: 'public/images/classesImg/fitness.jpg',
+    img: fitnessImg,
   },
 ];
 
