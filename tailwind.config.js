@@ -14,7 +14,6 @@ export default {
     backgroundImage: {
       about1: "url('public/images/AboutPage/3.jpg')",
       about2: "url('public/images/AboutPage/4.jpg')",
-      pageHeadingBgImage: "url('public/images/login/banner.jpg')",
       aboutTileBgImage: "url('public/images/who-we-are/info-card-bg.jpg')",
       aboutBgImage: "url('public/images/pricing/background.jpg')",
       galleryHomeImg1: "url('public/images/gallery/img1.jpg')",
