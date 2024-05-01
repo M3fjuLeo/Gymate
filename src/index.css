@@ -90,6 +90,10 @@ body {
   background-image: url('../public/images/trainers/dot-bg.png');
 }
 
+.BmiBg {
+  background-image: url('../public/images/bmiBackground.jpg');
+}
+
 .white-cta::after {
   content: '';
   width: 13rem;

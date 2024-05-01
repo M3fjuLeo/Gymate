@@ -24,7 +24,7 @@ function Bmi() {
   }
 
   return (
-    <section className="bg-BmiBg" id="BMI">
+    <section className="BmiBg" id="BMI">
       <div className="page-padding container">
         <div className="flex flex-col gap-6 py-12">
           <h1 className="text-5xl font-bold text-white">
