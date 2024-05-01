@@ -19,3 +19,31 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 ![Home Page](public/home_page.png)
+
+<h3 align='center'>About Page 🏡</h3>
+
+![About Page](public/about_page.png)
+
+<h3 align='center'>Gallery Page 🏡</h3>
+
+![Gallery Page](public/gallery_page.png)
+
+<h3 align='center'>Schedule Page 🏡</h3>
+
+![Schedule Page](public/schedule_page.png)
+
+<h3 align='center'>Blog Page 🏡</h3>
+
+![Blog Page](public/blog_page.png)
+
+<h3 align='center'>Pricing Page 🏡</h3>
+
+![Pricing Page](public/pricing_page.png)
+
+<h3 align='center'>Classes Page 🏡</h3>
+
+![Classes Page](public/classes_page.png)
+
+<h3 align='center'>AbContactout Page 🏡</h3>
+
+![Contact Page](public/contactUs_page.png)
