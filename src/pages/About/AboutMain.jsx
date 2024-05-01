@@ -27,7 +27,7 @@ function AboutMain() {
             <AboutGymBox
               title="modern equipments"
               img={equpmentsImg}
-              style="border-x-2"
+              style="border-x-2 min620:border-none"
             />
             <AboutGymBox title="fancy gym machines" img={gymImg} />
           </div>
