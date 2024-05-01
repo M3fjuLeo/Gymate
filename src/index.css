@@ -86,6 +86,10 @@ body {
   background-image: url('../public/images/choose-us/choose-bg.jpg');
 }
 
+.trainersSection {
+  background-image: url('../public/images/trainers/dot-bg.png');
+}
+
 .white-cta::after {
   content: '';
   width: 13rem;
