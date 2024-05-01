@@ -5,7 +5,19 @@ import BlogBox from './BlogBox';
 import BlogCategoriesContainer from './BlogCategoriesContainer';
 import BlogDiscountBanner from './BlogDiscountBanner';
 import Img1 from '../../../public/images/blog/1.jpg';
+import Img2 from '../../../public/images/blog/2.jpg';
+import Img3 from '../../../public/images/blog/3.jpg';
+import Img4 from '../../../public/images/blog/4.jpg';
+import Img5 from '../../../public/images/blog/5.jpg';
+import Img6 from '../../../public/images/blog/6.jpg';
+import Img7 from '../../../public/images/blog/7.jpg';
 import Recent1 from '../../../public/images/blog/recent1.jpg';
+import Recent2 from '../../../public/images/blog/recent2.jpg';
+import Recent3 from '../../../public/images/blog/recent3.jpg';
+import Recent4 from '../../../public/images/blog/recent4.jpg';
+import Recent5 from '../../../public/images/blog/recent5.jpg';
+import Recent6 from '../../../public/images/blog/recent6.jpg';
+import Recent7 from '../../../public/images/blog/recent7.jpg';
 
 const blogsData = [
   {
@@ -18,8 +30,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'public/images/blog/2.jpg',
-    recentImg: 'public/images/blog/recent2.jpg',
+    img: Img2,
+    recentImg: Recent2,
     title: 'Getting Back Into CrossFit After Vacation',
     date: 'March 11, 2022',
     label: 'Gym',
@@ -27,8 +39,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'public/images/blog/3.jpg',
-    recentImg: 'public/images/blog/recent3.jpg',
+    img: Img3,
+    recentImg: Recent3,
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Yoga',
@@ -36,8 +48,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'public/images/blog/4.jpg',
-    recentImg: 'public/images/blog/recent4.jpg',
+    img: Img4,
+    recentImg: Recent4,
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Meditation',
@@ -45,8 +57,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'public/images/blog/5.jpg',
-    recentImg: 'public/images/blog/recent5.jpg',
+    img: Img5,
+    recentImg: Recent5,
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Boxing',
@@ -54,8 +66,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'public/images/blog/6.jpg',
-    recentImg: 'public/images/blog/recent6.jpg',
+    img: Img6,
+    recentImg: Recent6,
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Crossfit',
@@ -63,8 +75,8 @@ const blogsData = [
       'Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.',
   },
   {
-    img: 'public/images/blog/7.jpg',
-    recentImg: 'public/images/blog/recent7.jpg',
+    img: Img7,
+    recentImg: Recent7,
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Boxing',
