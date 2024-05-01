@@ -1,15 +1,16 @@
-import BlogCategory from './BlogCategory';
 import BlogTileContainer from './BlogTileContainer';
 import PageHeading from '../../ui/PageHeading';
 import RecentPost from '../../ui/RecentPost';
 import BlogBox from './BlogBox';
 import BlogCategoriesContainer from './BlogCategoriesContainer';
 import BlogDiscountBanner from './BlogDiscountBanner';
+import Img1 from '../../../public/images/blog/1.jpg';
+import Recent1 from '../../../public/images/blog/recent1.jpg';
 
 const blogsData = [
   {
-    img: 'public/images/blog/1.jpg',
-    recentImg: 'public/images/blog/recent1.jpg',
+    img: Img1,
+    recentImg: Recent1,
     title: 'Yoga For Everyone in 2022',
     date: 'March 11, 2022',
     label: 'Yoga',
