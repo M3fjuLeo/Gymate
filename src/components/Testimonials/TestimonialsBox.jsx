@@ -1,3 +1,5 @@
+import quotesImg from '../../../public/images/TestimonialsImg/quotes.png';
+
 function TestimonialsBox() {
   const reviews = [
     {

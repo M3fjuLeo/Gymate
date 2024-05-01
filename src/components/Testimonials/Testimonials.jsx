@@ -5,6 +5,7 @@ import Logo2 from '../../../public/images/TestimonialsImg/logo2.png';
 import Logo3 from '../../../public/images/TestimonialsImg/logo3.png';
 import Logo4 from '../../../public/images/TestimonialsImg/logo4.png';
 import Logo5 from '../../../public/images/TestimonialsImg/logo5.png';
+import trainerImg from '../../../public/images/TestimonialsImg/testimonial-new.jpg';
 
 function Testimonials() {
   const logos = [Logo1, Logo2, Logo3, Logo4, Logo5];
@@ -18,7 +19,7 @@ function Testimonials() {
             <div className="relative w-[44rem] md1200:hidden">
               <img
                 className="absolute bottom-0 h-[30rem] w-[25rem] rounded-tr-[12rem]"
-                src="public/images/TestimonialsImg/testimonial-new.jpg"
+                src={trainerImg}
                 alt="trainer photo"
               />
             </div>
