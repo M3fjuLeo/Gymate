@@ -16,11 +16,7 @@ function TestimonialsBox() {
     <div className="flex w-full flex-col p-10 text-white">
       {reviews.map((review, id) => (
         <div key={id}>
-          <img
-            className="mb-6 w-16"
-            src="public/images/TestimonialsImg/quotes.png"
-            alt="quotes"
-          />
+          <img className="mb-6 w-16" src={quotesImg} alt="quotes" />
           <p className="mb-6 font-thin italic text-neutral-300">
             “{review.descriptions}”
           </p>
