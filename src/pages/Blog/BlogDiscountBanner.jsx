@@ -1,9 +1,11 @@
+import DiscountBanner from '../../../public/images/blog/sidebar1.png';
+
 function BlogDiscountBanner() {
   return (
     <div className="relative md1000:hidden">
       <img
         className="absolute w-full"
-        src="public/images/blog/sidebar1.png"
+        src={DiscountBanner}
         alt="discount banner"
       />
       <h2 className="absolute top-7 bg-white px-8 py-4 text-2xl font-bold">

@@ -12,15 +12,6 @@ export default {
       min375: { max: '375px' },
     },
     backgroundImage: {
-      about1: "url('public/images/AboutPage/3.jpg')",
-      about2: "url('public/images/AboutPage/4.jpg')",
-      aboutTileBgImage: "url('public/images/who-we-are/info-card-bg.jpg')",
-      aboutBgImage: "url('public/images/pricing/background.jpg')",
-      galleryHomeImg1: "url('public/images/gallery/img1.jpg')",
-      galleryHomeImg2: "url('public/images/gallery/img2.jpg')",
-      galleryHomeImg3: "url('public/images/gallery/img3.jpg')",
-      galleryHomeImg4: "url('public/images/gallery/img4.jpg')",
-      galleryHomeImg5: "url('public/images/gallery/img5.jpg')",
       BlogDiscountBanner: "url('public/pages/Blog/blog/sidebar1.png')",
     },
     extend: {
