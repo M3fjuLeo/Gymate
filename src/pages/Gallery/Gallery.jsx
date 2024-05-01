@@ -61,7 +61,7 @@ function Gallery() {
           {displayImages.map((image) => (
             <img
               // key={image.id}
-              src={image.img}
+              src={image}
               alt="gallery photo"
               className="h-[24rem] w-[24rem]"
             />
