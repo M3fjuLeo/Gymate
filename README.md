@@ -17,4 +17,5 @@
 <br>
 
 <h3 align='center'>Home Page 🏡</h3>
-<img src='../public/gymate-ruby.vercel.app_.png'>
+
+![Home Page](public/home_page.png)
