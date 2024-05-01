@@ -17,7 +17,6 @@ import Recent3 from '../../../public/images/blog/recent3.jpg';
 import Recent4 from '../../../public/images/blog/recent4.jpg';
 import Recent5 from '../../../public/images/blog/recent5.jpg';
 import Recent6 from '../../../public/images/blog/recent6.jpg';
-import Recent7 from '../../../public/images/blog/recent7.jpg';
 
 const blogsData = [
   {
@@ -76,7 +75,7 @@ const blogsData = [
   },
   {
     img: Img7,
-    recentImg: Recent7,
+    recentImg: Recent6,
     title: 'Meet Fitness Ambassador Grace',
     date: 'March 11, 2022',
     label: 'Boxing',
