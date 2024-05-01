@@ -4,14 +4,12 @@ import img2 from '../../../public/images/gallery/img2.jpg';
 import img3 from '../../../public/images/gallery/img3.jpg';
 import img4 from '../../../public/images/gallery/img4.jpg';
 import img5 from '../../../public/images/gallery/img5.jpg';
+import bgIcon from '../../../public/images/gallery/bg-icon.png';
 
 function GalleryHome() {
   return (
     <section className="relative" id="gallery home">
-      <img
-        className="absolute right-0 top-20"
-        src="public/images/gallery/bg-icon.png"
-      />
+      <img className="absolute right-0 top-20" src={bgIcon} />
       <div className="page-padding container py-32">
         <div className="flex flex-col items-center gap-12">
           <div className="flex w-[60%] flex-col items-center gap-6 text-center">

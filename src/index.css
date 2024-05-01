@@ -23,7 +23,8 @@ body {
   background-position: center center;
 }
 
-.about-section {
+.about-section,
+.pricingSection {
   background-image: url('../public/images/pricing/background.jpg');
   width: 100%;
   object-fit: cover;

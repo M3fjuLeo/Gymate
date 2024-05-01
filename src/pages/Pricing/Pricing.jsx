@@ -3,18 +3,20 @@ import PricingCard from './PricingCard';
 import Img1 from '../../../public/images/pricing/img1.jpg';
 import Img2 from '../../../public/images/pricing/img2.jpg';
 import Img3 from '../../../public/images/pricing/img3.jpg';
+import bgText from '../../../public/images/pricing/bg-text.png';
+import bgDumbell from '../../../public/images/pricing/bg-dumbell.png';
 
 function Pricing() {
   return (
-    <section id="pricing" className="bg-aboutBgImage relative">
+    <section id="pricing" className="pricingSection relative">
       <img
         className="absolute left-10 top-10"
-        src="public/images/pricing/bg-text.png"
+        src={bgText}
         alt="dumbells image"
       />
       <img
         className="absolute bottom-10 right-10"
-        src="public/images/pricing/bg-dumbell.png"
+        src={bgDumbell}
         alt="no days off"
       />
       <div className="page-padding z-100 container  py-28 text-center">
