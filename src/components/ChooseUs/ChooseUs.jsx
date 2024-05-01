@@ -2,6 +2,11 @@ import Button from '../../ui/Button';
 import ChooseUsBox from './ChooseUsBox';
 import Title from './../../ui/Title';
 import videoImg from '../../../public/images/choose-us/main-img.png';
+import playImg from '../../../public/images/choose-us/play.png';
+import trainingImg from '../../../public/images/choose-us/training.png';
+import benchPressImg from '../../../public/images/choose-us/bench-press.png';
+import gymBagImg from '../../../public/images/choose-us/gym-bag.png';
+import waterImg from '../../../public/images/choose-us/bottle-of-water.png';
 
 function ChooseUs() {
   return (
@@ -16,7 +21,7 @@ function ChooseUs() {
           <span className="absolute left-[50%] top-[45%] w-16 -translate-x-2/4 -translate-y-2/4 cursor-pointer rounded-full bg-white p-4">
             <img
               className="relative left-1 md1000:block"
-              src="public/images/choose-us/play.png"
+              src={playImg}
               alt="plaay image"
             />
           </span>
@@ -33,22 +38,10 @@ function ChooseUs() {
             and nutrition plan that helps you reach your specific goals.
           </p>
           <div className="mb-8 grid grid-cols-2 grid-rows-2 gap-8 min540:flex min540:flex-col">
-            <ChooseUsBox
-              title="Free Fitness Training"
-              icon="public/images/choose-us/training.png"
-            />
-            <ChooseUsBox
-              title="Modern Gym Equipments"
-              icon="public/images/choose-us/bench-press.png"
-            />
-            <ChooseUsBox
-              title="Gym Bag Equipments"
-              icon="public/images/choose-us/gym-bag.png"
-            />
-            <ChooseUsBox
-              title="Fresh Bottle Watter"
-              icon="public/images/choose-us/bottle-of-water.png"
-            />
+            <ChooseUsBox title="Free Fitness Training" icon={trainingImg} />
+            <ChooseUsBox title="Modern Gym Equipments" icon={benchPressImg} />
+            <ChooseUsBox title="Gym Bag Equipments" icon={gymBagImg} />
+            <ChooseUsBox title="Fresh Bottle Watter" icon={waterImg} />
           </div>
           <Button
             description={'our classes'}
