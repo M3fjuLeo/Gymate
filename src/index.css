@@ -74,6 +74,14 @@ body {
   width: 100%;
 }
 
+.featuredBgBanner {
+  background-image: url('../public/images/features/cta-bg.png');
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
 .white-cta::after {
   content: '';
   width: 13rem;
