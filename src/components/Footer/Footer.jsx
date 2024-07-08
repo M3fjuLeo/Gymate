@@ -7,7 +7,7 @@ function Footer() {
     <footer className="flex justify-center bg-white">
       <div className="page-padding container py-[7rem]">
         <div className="flex flex-row items-center justify-between md1200:gap-20 md1000:gap-10 min620:flex-col">
-          <div className="flex w-1/3 flex-col gap-6">
+          <div className="flex w-2/3 flex-col gap-6">
             <img src={LogoFooter} alt="Footer Logo" className="w-[12rem]" />
             <p className="text-gray-500">
               Take your health and body to the next level with our comprehensive

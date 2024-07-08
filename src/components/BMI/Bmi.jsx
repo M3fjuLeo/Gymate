@@ -34,7 +34,8 @@ function Bmi() {
             Easily determine your body mass index with our accurate calculation
             tool.
           </p>
-          <div className="flex flex-row gap-4">
+
+          <div className="flex flex-row gap-4 min620:flex-col">
             <div className="flex flex-col gap-4">
               <input
                 onChange={(e) => setWeight(e.target.value)}
