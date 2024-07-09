@@ -59,7 +59,7 @@ function Nav() {
           onClick={toggleHamburger}
           className="fa-solid fa-bars hidden cursor-pointer hover:text-red-500 md1200:flex"
         ></i>
-        <Link to="/signup">
+        <Link to="/signup" onClick={() => scrollTop()}>
           <i
             style={{ transition: 'all 0.3s' }}
             className="fa-regular fa-user  cursor-pointer hover:text-red-500"

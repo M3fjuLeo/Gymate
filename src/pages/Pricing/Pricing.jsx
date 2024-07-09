@@ -19,12 +19,12 @@ function Pricing() {
         src={bgDumbell}
         alt="no days off"
       />
-      <div className="page-padding z-100 container  py-28 text-center">
+      <div className="page-padding z-100 container py-28 text-center">
         <div className="flex flex-col items-center gap-10">
           <div className="textcenter flex w-[50%] flex-col items-center gap-6">
             <Title title={'pricing chart'} />
-            <h1 className="text-4xl font-bold">Exclusive Pricing Plan</h1>
-            <p className="text-lg text-neutral-600">
+            <h1 className="z-10 text-4xl font-bold">Exclusive Pricing Plan</h1>
+            <p className="z-10 text-lg text-neutral-600">
               Gymat an unknown printer took a galley of type and scrambled make
               a type specimen book.
             </p>

@@ -12,10 +12,10 @@ function Testimonials() {
 
   return (
     <section id="testimonials" className="border-b-[1px]">
-      <div className="page-padding container flex flex-col gap-20 py-20 ">
+      <div className="page-padding lg:gap-20 container flex flex-col py-20 ">
         <Title title={'testimonials'} />
         <div className="mt-32 border-[10px] border-solid p-6">
-          <div className="relative flex flex-row bg-black">
+          <div className="lg:pb-0 relative flex flex-row bg-black pb-20">
             <div className="relative w-[44rem] md1200:hidden">
               <img
                 className="absolute bottom-0 h-[30rem] w-[25rem] rounded-tr-[12rem]"

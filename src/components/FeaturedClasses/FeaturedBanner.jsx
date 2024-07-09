@@ -3,7 +3,7 @@ import featuredBgBanner from '../../../public/images/features/cta-bg.png';
 
 function FeaturedBanner() {
   return (
-    <div className="featuredBgBanner flex h-[12rem] w-full items-center justify-start bg-cover bg-center md1200:!bg-red-500 md1200:bg-none">
+    <div className="featuredBgBanner lg:h-[12rem] flex w-full items-center  justify-start bg-cover bg-center py-4 md1200:!bg-red-500 md1200:bg-none">
       <div className="page-padding container">
         <div className="flex items-center gap-20 md1200:flex-col md1200:gap-8 md1200:text-center">
           <h2 className="max-w-xl text-4xl font-bold text-white">
